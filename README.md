@@ -1,6 +1,6 @@
 # Crypto_CADT
 
-# from Week3/lab1
+# From Week3/lab1
 
 cd /Users/savonchanserey/path/to/Week3/lab1
 
@@ -23,11 +23,7 @@ go run main.go -mode sha512 -hash 485f5c36c6f8474f53a3b0e361369ee3e32ee0de2f368b
 
 # Push to github
 
-cd Crypto_CADT
-git init 
-git add .
-git commit -m "add"
-git remote add origin https://github.com/SavonChanserey/Crypto_CADT.git
-git branch -M main
-git pull origin main --rebase
-git push -u origin main
+cd Crypto_CADT => git init => git add . => git commit -m "add" => git remote add origin https://github.com/SavonChanserey/Crypto_CADT.git => git branch -M main => git pull origin main --rebase => git push -u origin main
+
+# To push code
+git add . => git commit -m "add" => git push
