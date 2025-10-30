@@ -1,14 +1,18 @@
 # Crypto_CADT
 
 # from Week3/lab1
+
 cd /Users/savonchanserey/path/to/Week3/lab1
 
 # change module name to include Week3/lab1
+
 go mod edit -module=github.com/SavonChanserey/Crypto/Week3/lab1
 go mod edit -replace=github.com/SavonChanserey/Crypto=./
 
 # tidy
 go mod tidy
+
+# How to run these code
 
 go run main.go -mode md5 -hash 6a85dfd77d9cb35770c9dc6728d73d3f -wordlist nord_vpn.txt -out verbose_md5.txt
 
@@ -18,6 +22,7 @@ go run main.go -mode sha512 -hash 485f5c36c6f8474f53a3b0e361369ee3e32ee0de2f368b
 
 
 # Push to github
+
 cd Crypto_CADT
 git init 
 git add .
